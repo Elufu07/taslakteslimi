@@ -55,6 +55,13 @@ h1{
     top: 100%;
 }
 
+.yanafoto img {
+
+    position: absolute;
+    right: %50;
+    top: 170px;
+}
+
 .içerik.buyuk {
     color: #302C27;
     width: 100%;
@@ -72,8 +79,16 @@ h1{
 }
 
 .stick {
-background-color: beige;
-position: sticky;
-top: auto;
-left: auto;
+    position: sticky;
+    top: 20px;
+    margin-left: auto;
+    width: fit-content;
+    z-index: 1000;
+}
+
+.stick img {
+    display: block;
+    width: 120px;
+    height: auto;
+    padding: 10px;
 }
