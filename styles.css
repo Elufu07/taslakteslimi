@@ -1,0 +1,79 @@
+body{
+    background-color: #E7DCC6;
+    height: 2000px;
+    font-family: 'Lora', serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #482A2B;
+
+}
+.başlikfotoğrafi {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.flx {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+}
+
+.buyuk {
+    font-size: 24px;
+    
+}
+
+.içerik {
+    color: #302C27;
+    width: 50%;
+    height: 400px;
+    background-color: #D5C8B0;
+    text-align: left;
+    left: 20px;
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+.girişyazisi {
+    color: #302C27;
+    background-color: #D5C8B0;
+    text-align: left;
+    font-size: 24px;
+    padding: 20px;
+    
+}
+
+.yanafoto {
+    position: absolute;
+    background-color: #D5C8B0;
+    left: 65%;
+    top: 100%;
+}
+
+.içerik.buyuk {
+    color: #302C27;
+    width: 100%;
+    height: 500px;
+    background-color: #E7DCC6;
+    text-align: left;
+    left: 20px;
+    font-size: 24px;
+}
+
+.ikinciiçerik {
+    background-color: #D5C8B0;
+    width: 50%;
+    left: auto;
+}
+
+.stick {
+background-color: beige;
+position: sticky;
+top: auto;
+left: auto;
+}
